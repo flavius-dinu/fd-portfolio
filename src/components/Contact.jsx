@@ -1,6 +1,4 @@
 import React from 'react'
-import { BsFillPersonLinesFill } from 'react-icons/bs'
-import { FaGithub, FaInstagram, FaLinkedin, FaMedium, FaTwitter } from 'react-icons/fa'
 
 const Contact = () => {
     return (

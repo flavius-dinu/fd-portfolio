@@ -8,7 +8,7 @@ const Social = () => {
                 <ul class="flex mt-3 text-sm text-gray-500 dark:text-gray-400 sm:mt-0 sm:space-x-10">
                     <li>
                         <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">
-                            <a href="#" class="hover:underline">© Flavius Dinu</a>
+                            © Flavius Dinu
                         </span>
                     </li>
                     <li>
