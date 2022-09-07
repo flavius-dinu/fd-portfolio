@@ -1,4 +1,6 @@
 import React from 'react'
+import { BsFillPersonLinesFill } from 'react-icons/bs'
+import { FaGithub, FaInstagram, FaLinkedin, FaMedium, FaTwitter } from 'react-icons/fa'
 
 const Contact = () => {
     return (
@@ -13,7 +15,6 @@ const Contact = () => {
                 <textarea className='bg-[#ccd6f6] p-2' name="message" rows="10" placeholder='Message' />
                 <button className='text-white border-2 hover:bg-orange-500 hover:border-orange-500 bg-[#0a192f]  border-[#0a192f] px-4 py-3 my-8 mx-auto flex items-center'>Submit</button>
             </form>
-
         </div>
     )
 }

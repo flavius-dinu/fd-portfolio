@@ -9,12 +9,12 @@ import helm from '../assets/helm.png'
 function Work() {
     return (
         <div name='work' className='w-full md:h-screen text-[#0a192f] bg-[#67d6ab] items-center'>
-            <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
+            <div className='max-w-[1000px] overflow-x-scroll mx-auto p-4 lg:flex flex-col justify-center w-full h-full'>
                 <div className='pb-8'>
                     <p className='text-4xl font-bold inline'>Recent Work</p>
                 </div>
-                <div className="grid grid-flow-col grid-rows-2 grid-cols-3 gap-x-4 gap-y-4">
-                    <div className="max-w-sm rounded overflow-hidden shadow-lg">
+                <div className="grid grid-flow-col grid-cols-1 grid-rows-6 md:grid-cols-3 md:grid-rows-2 gap-x-4 gap-y-4">
+                    <div className="max-w-sm rounded overflow-auto shadow-lg">
                         <a href="https://github.com/flavius-dinu/terraform-module-template">
                             <img className="w-full hover:scale-95" src={tf_module} alt="tf-mod-template" />
                         </a>
@@ -30,7 +30,7 @@ function Work() {
                             <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#pre-commit</span>
                         </div>
                     </div>
-                    <div className="max-w-sm rounded overflow-hidden shadow-lg">
+                    <div className="max-w-sm rounded overflow-auto shadow-lg">
                         <a href="https://medium.com/@flaviuscdinu93/building-reusable-terraform-modules-9e90aa4eef31">
                             <img className="w-full hover:scale-95" src={med1} alt="tfm1" />
                         </a>
@@ -46,7 +46,7 @@ function Work() {
                             <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#pre-commit</span>
                         </div>
                     </div>
-                    <div className="max-w-sm rounded overflow-hidden shadow-lg">
+                    <div className="max-w-sm rounded overflow-auto shadow-lg">
                         <a href="https://github.com/flavius-dinu/terraform-az-aks">
                             <img className="w-full hover:scale-95" src={aks} alt="azaks" />
                         </a>
@@ -62,7 +62,7 @@ function Work() {
                             <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#kubernetes</span>
                         </div>
                     </div>
-                    <div className="max-w-sm rounded overflow-hidden shadow-lg">
+                    <div className="max-w-sm rounded overflow-auto shadow-lg">
                         <a href="https://medium.com/@flaviuscdinu93/building-reusable-terraform-modules-part-2-c7cafaeeee59">
                             <img className="w-full hover:scale-95" src={med2} alt="tfm2" />
                         </a>
@@ -78,7 +78,7 @@ function Work() {
                             <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#kubernetes</span>
                         </div>
                     </div>
-                    <div className="max-w-sm rounded overflow-hidden shadow-lg">
+                    <div className="max-w-sm rounded overflow-auto shadow-lg">
                         <a href="https://github.com/flavius-dinu/terraform-helm-release">
                             <img className="w-full hover:scale-95" src={helm} alt="helm" />
                         </a>
@@ -94,7 +94,7 @@ function Work() {
                             <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#helmchart</span>
                         </div>
                     </div>
-                    <div className="max-w-sm rounded overflow-hidden shadow-lg">
+                    <div className="max-w-sm rounded overflow-auto shadow-lg">
                         <a href="https://github.com/flavius-dinu/terraform-module-template">
                             <img className="w-full hover:scale-95" src={tfc} alt="terraformcloud" />
                         </a>
