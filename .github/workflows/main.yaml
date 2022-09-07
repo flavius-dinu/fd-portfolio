@@ -15,10 +15,9 @@ jobs:
       - name: Setup Node and Yarn
         uses: actions/setup-node@v3
 
-      - name: Install React
+      - name: Install React Dependencies
         run: |
-          npm install -g create-react-app
-          npm install -g react-scripts
+          npm i -D package.json
 
       - name: Configure AWS Credentials
         uses: aws-actions/configure-aws-credentials@v1
