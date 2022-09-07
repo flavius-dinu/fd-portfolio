@@ -44,16 +44,20 @@ const Services = () => {
                     </div>
                     <div className="block p-6 max-w-sm overflow-x-scroll shadow-lg border rounded-lg bg-gray-800 border-gray-700 hover:bg-gray-700">
                         <ol className="relative border-l border-gray-200 dark:border-gray-700">
-                            <li className="ml-4">
-                                <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
-                                <h3 className="text-lg font-semibold text-white">Done</h3>
-                            </li>
                             <li className="mb-10 ml-4">
                                 <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
-                                <time className="mb-1 text-sm font-normal leading-none">Step 4</time>
-                                <h3 className="text-lg font-semibold text-white">Finish Development</h3>
-                                <p className="mb-4 text-base font-normal text-gray-500">All developed code will come in with thorough documentation, but knowledge transfer sessions will be provided also. In this step we should assess if development artifacts are accurate.</p>
+                                <time className="mb-1 text-sm font-normal leading-none">Step 1</time>
+                                <h3 className="text-lg font-semibold text-white">Contact Me and Discuss Requirements</h3>
+                                <p className="text-base font-normal text-gray-500">The most important part is to understand if I am match for your project.</p>
                             </li>
+
+                            <li className="mb-10 ml-4">
+                                <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
+                                <time className="mb-1 text-sm font-normal leading-none">Step 2</time>
+                                <h3 className="text-lg font-semibold text-white">Plan</h3>
+                                <p className="text-base font-normal text-gray-500">After we decide that I am a good match for your project, we should always plan ahead the work that has to be done, in that way, we will have a clear picture about estimating the delivery time.</p>
+                            </li>
+
                             <li className="mb-10 ml-4">
                                 <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
                                 <time className="mb-1 text-sm font-normal leading-none">Step 3</time>
@@ -62,15 +66,13 @@ const Services = () => {
                             </li>
                             <li className="mb-10 ml-4">
                                 <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
-                                <time className="mb-1 text-sm font-normal leading-none">Step 2</time>
-                                <h3 className="text-lg font-semibold text-white">Plan</h3>
-                                <p className="text-base font-normal text-gray-500">After we decide that I am a good match for your project, we should always plan ahead the work that has to be done, in that way, we will have a clear picture about estimating the delivery time.</p>
+                                <time className="mb-1 text-sm font-normal leading-none">Step 4</time>
+                                <h3 className="text-lg font-semibold text-white">Finish Development</h3>
+                                <p className="mb-4 text-base font-normal text-gray-500">All developed code will come in with thorough documentation, but knowledge transfer sessions will be provided also. In this step we should assess if development artifacts are accurate.</p>
                             </li>
                             <li className="ml-4">
                                 <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
-                                <time className="mb-1 text-sm font-normal leading-none">Step 1</time>
-                                <h3 className="text-lg font-semibold text-white">Contact Me and Discuss Requirements</h3>
-                                <p className="text-base font-normal text-gray-500">The most important part is to understand if I am match for your project.</p>
+                                <h3 className="text-lg font-semibold text-white">Done</h3>
                             </li>
                         </ol>
                     </div>
